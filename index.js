@@ -21,7 +21,7 @@ if (cart.length === 0) {
     return ("Your shopping cart is empty.")
   } 
 var aa = 'In your cart, you have '
-var cc = 'at $'
+var cc = ' at $'
 var dd = ', and'
 for (let i = 0; i< cart.length ; i++){
 
