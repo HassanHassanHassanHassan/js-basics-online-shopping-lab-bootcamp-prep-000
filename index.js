@@ -21,7 +21,7 @@ if (cart.length === 0) {
     return ("Your shopping cart is empty.")
   } 
 else if (cart.length === 1) {
-    var OneItem = `In your cart, you have itemName at $${cart[0][Object.keys(cart[0])]}.`
+    var OneItem = `In your cart, you have ${item.itemName} at ${item.itemPrice}.`
      return OneItem
 }
 }  
