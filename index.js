@@ -23,6 +23,8 @@ if (cart.length === 0) {
 var aa = 'In your cart, you have '
 var cc = ' at $'
 var dd = 'and '
+if ( cart.length ===1)
+return aa + cart[0].itemName + cc + cart[0].itemPrice
 
 for (let i = 0; i< cart.length ; i++){
 if (i === cart.length-1){
@@ -33,6 +35,7 @@ else aa +=  cart[i].itemName + cc + cart[i].itemPrice + ', '
 
 }
 return aa
+
 }   
 
 
