@@ -38,7 +38,6 @@ return aa
 
 }   
 
-
 function total(item) {
    let cost = 0
    for (let i = 0; cart.length > i; i++){
