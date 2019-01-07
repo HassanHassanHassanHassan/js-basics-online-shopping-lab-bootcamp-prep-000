@@ -22,7 +22,8 @@ if (cart.length === 0) {
   } 
 var aa = 'In your cart,'
 var bb = 'you have'
-var w
+var cc = 'at'
+var dd = ', and'
 for (let i = 0; i< cart.length ; i++){
 
 return 'In your cart, you have at.'
