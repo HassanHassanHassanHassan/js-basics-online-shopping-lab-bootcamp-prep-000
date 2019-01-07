@@ -26,7 +26,7 @@ var dd = ', and '
 
 for (let i = 0; i< cart.length ; i++){
 if (i = cart.length -1){
-  aa +=  cart[i].itemName + cc + dd + cart[i].itemPrice + '.' 
+  aa +=  cart[i].itemName + cc + cart[i].itemPrice + dd'.' 
   
 }
 else aa +=  cart[i].itemName + cc + cart[i].itemPrice + '.'
