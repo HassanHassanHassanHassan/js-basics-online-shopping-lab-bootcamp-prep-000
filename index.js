@@ -50,8 +50,9 @@ function total(item) {
 function removeFromCart(item){
 let iteminCart = false
 for (let i = 0; cart.length > i; i++)
-if (cart[i].itemName === item)
+if (cart[i].itemName === item){
 cart.splice(0, i)
+return item
 }
 
 if (false === iteminCart)
