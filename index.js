@@ -42,7 +42,7 @@ function total(item) {
    let cost = 0
    for (let i = 0; cart.length > i; i++){
    
-    cost +=
+    cost += cart[i]
    }}
      return cost
 }
