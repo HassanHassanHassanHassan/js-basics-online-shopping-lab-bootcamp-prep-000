@@ -24,7 +24,7 @@ var aa = 'In your cart, you have '
 var cc = ' at $'
 var dd = ', and '
 
-for (let i = 0; i< cart.length ; i++){
+for (let i = 0; i< cart.length-1 ; i++){
 if (i === cart.length -1){
   aa +=  cart[i].itemName + cc + cart[i].itemPrice + dd +'.' 
   
