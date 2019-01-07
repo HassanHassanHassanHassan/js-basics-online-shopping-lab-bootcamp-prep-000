@@ -49,10 +49,7 @@ function total(item) {
 
 function removeFromCart(item){
 let iteminCart = false
-
-for (let i = 0; cart.length > i; i++){
-if (cart[i].hasOwnProperty(item))
-{iteminCart = true}
+for (let i = 0; cart.length > i; i++)
 cart.splice(0, i)
 }
 
