@@ -21,15 +21,11 @@ if (cart.length === 0) {
     return ("Your shopping cart is empty.")
   } 
   
-for (let i = 0, i< cart.length ; i++){
+for (let i = 0; i< cart.length ; i++){
 
 return 'In your cart, you have at.'
 }
 
-else if (cart.length === 1) {
-    var OneItem = `In your cart, you have ${item.itemName} at ${item.itemPrice}.`
-     return OneItem
-}
 }  
 
 
