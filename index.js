@@ -25,7 +25,7 @@ var cc = 'at'
 var dd = ', and'
 for (let i = 0; i< cart.length ; i++){
 
- aa += cart[i].itemName + cc + cart[i].itemPrice + '.'
+ return aa += cart[i].itemName + cc + cart[i].itemPrice + '.'
 }
 
 }  
