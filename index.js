@@ -29,7 +29,7 @@ if (i === cart.length-1){
   aa += dd + cart[i].itemName +cc + cart[i].itemPrice +'.' 
   
 }
-else aa +=  cart[i].itemName + cc + cart[i].itemPrice 
+else aa +=  cart[i].itemName + cc + cart[i].itemPrice + ' ,'
 
 }
 return aa
