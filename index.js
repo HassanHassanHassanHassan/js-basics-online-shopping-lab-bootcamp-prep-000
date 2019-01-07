@@ -20,13 +20,12 @@ function viewCart() {
 if (cart.length === 0) {
     return ("Your shopping cart is empty.")
   } 
-var aa = 'In your cart,'
-var bb = 'you have'
+var aa = 'In your cart, you have'
 var cc = 'at'
 var dd = ', and'
 for (let i = 0; i< cart.length ; i++){
 
-return 'In your cart, you have at.'
+return aa += item + bb +
 }
 
 }  
